@@ -304,7 +304,7 @@ comment:
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
       clientID: baeec8540cf1e427e51e # GitHub Application Client ID
-      clientSecret: 5da0519625ef722d694e11a12852aad2e3e6e61d # GitHub Application Client Secret
+      clientSecret: 663b139f985759f9cd9c2672ddfbaa25e35641e0 # GitHub Application Client Secret
       repo: https://github.com/TaNet1/Gtalk.git # GitHub repository
       owner: TaNet1 # GitHub repository owner
     # Twikoo comment system. See https://twikoo.js.org/
