@@ -161,7 +161,7 @@ home_banner:
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 navbar:
   tags:
-    Tags:
+    Tags: 产品经理
         icon: fa-solid fa-tags #图标
         path: /tags/ #链接
   # Auto hide navbar
