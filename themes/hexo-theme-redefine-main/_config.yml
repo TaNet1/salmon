@@ -21,7 +21,7 @@ info:
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/logo.png
+  favicon: /images/logo1.png
   # Site logo
   logo: /images/avatar.jpg
   # Site avatar
