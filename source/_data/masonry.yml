@@ -2,9 +2,9 @@
   title: Sea
   description: Love Love Love
 
-- image: /images/p2.jpg
-  title: Lorem ipsum
-  description: Lorem ipsum dolor sit amet
+- image: /images/p2.jpeg
+  title: Sea
+  description: Love Love Love
   
 - image: /images/p3.jpg
   title: Lorem ipsum
@@ -67,5 +67,9 @@
   description: Lorem ipsum dolor sit amet
   
 - image: /images/p18.jpg
+  title: Lorem ipsum
+  description: Lorem ipsum dolor sit amet
+  
+- image: /images/p19.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
