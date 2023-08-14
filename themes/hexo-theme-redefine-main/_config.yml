@@ -387,7 +387,7 @@ plugins:
     audios:
       - name: jealous. # audio name
         artist: ford. # audio artist
-        url: https://music.163.com/song?id=449824646 # audio url
+        url: /music/ford - jealous.mp3 # audio url
         cover: /images/cover.JPG # audio cover url
       # - name: # audio name
       #   artist: # audio artist
