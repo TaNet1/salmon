@@ -1,63 +1,67 @@
-- image: https://picsum.photos/id/12/2500/1800
+- image: /images/p1.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
 
-- image: https://picsum.photos/id/13/2500/1800
+- image: /images/p2.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/14/2500/1800
+- image: /images/p3.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
 
-- image: https://picsum.photos/id/15/2500/1800
+- image: /images/p4.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/16/2500/1800
+- image: /images/p5.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/17/2500/1800
+- image: /images/p6.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/18/2500/1800
+- image: /images/p7.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/19/1800/2500
+- image: /images/p8.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/20/2500/1800
+- image: /images/p9.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/21/1800/2500
+- image: /images/p10.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/22/1800/2500
+- image: /images/p11.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/23/1800/2500
+- image: /images/p12.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/24/1800/2500
+- image: /images/p13.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/25/1800/2500
+- image: /images/p14.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/26/1800/2500
+- image: /images/p15.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
   
-- image: https://picsum.photos/id/27/1800/2500
+- image: /images/p16.jpg
+  title: Lorem ipsum
+  description: Lorem ipsum dolor sit amet
+  
+- image: /images/p17.jpg
   title: Lorem ipsum
   description: Lorem ipsum dolor sit amet
