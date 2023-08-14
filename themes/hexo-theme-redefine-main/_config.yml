@@ -180,9 +180,6 @@ navbar:
     Home:
       path: /
       icon: fa-regular fa-house # can be empty
-    相册: #取名随意
-      icon: fa-solid fa-image #图标
-      path: /masonry/
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
