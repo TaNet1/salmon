@@ -164,6 +164,10 @@ navbar:
     Tags:
         icon: fa-solid fa-tags #图标
         path: /tags/ #链接
+  categories:
+    Categories: #取名随意
+        icon: fa-solid fa-folder #图标
+        path: /categories/ #链接
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
