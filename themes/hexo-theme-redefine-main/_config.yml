@@ -10,7 +10,7 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: Salmon的个人博客
+  title: Salmon Sea
   # Author name
   author: Salmon
   # Site URL
@@ -25,7 +25,7 @@ defaults:
   # Site logo
   logo:
   # Site avatar
-  avatar: /images/stare.jpg
+  avatar: /images/avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
