@@ -1,4 +1,10 @@
+- image: /images/p1.jpg
+  title: Sea
+  description: Love Love Love
 
+- image: /images/p2.jpeg
+  title: Sea
+  description: Love Love Love
   
 - image: /images/p3.jpg
   title: Lorem ipsum
