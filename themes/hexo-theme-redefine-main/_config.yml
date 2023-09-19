@@ -150,7 +150,7 @@ home_banner:
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
       email: sunwenyu1123@gmail.com # your email
-      notion: https://satin-gull-683.notion.site/PM-5a4d9264be204df5bf5c9b3714940258?pvs=4
+      bookmark: https://satin-gull-683.notion.site/PM-5a4d9264be204df5bf5c9b3714940258?pvs=4
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
