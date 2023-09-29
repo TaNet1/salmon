@@ -182,7 +182,7 @@ navbar:
       path: /
       icon: fa-regular fa-house # can be empty
     小海万事屋: # 一级菜单栏名称
-      path: https://mbyatp.axshare.com/?id=p9c0qa&p=page_1 # 网址，可以为相对路径或者绝对路径
+      path: https://mbyatp.axshare.com # 网址，可以为相对路径或者绝对路径
       icon: far fa-cat # Fontawesome图标名称（可选）
     Archives:
       path: /archives
