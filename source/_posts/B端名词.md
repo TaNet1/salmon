@@ -365,7 +365,7 @@ SEO即Search Engine Optimization，汉译为搜索引擎优化。就是利用搜
 
 ### 评审 - 提测 - 发版
 
-![img](https://cdn.nlark.com/yuque/0/2022/png/29547060/1666836872880-fb0a39e0-c78e-4255-bba4-753b074aa249.png)
+![img](/images/word1.png)
 
 
 
@@ -383,7 +383,7 @@ Salesforce是创建于1999年3月的一家客户关系管理(CRM)软件服务提
 
  PMF（Product Market Fit）金字塔模型 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1666920887269-87d07476-0378-4105-b7f6-535890314c79.png)
+![image.png](/images/word2.png)
 
 
 
@@ -431,9 +431,9 @@ Salesforce是创建于1999年3月的一家客户关系管理(CRM)软件服务提
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667180164527-50e8636d-7870-49c9-a43e-f73b10321872.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![image.png](/images/word3.png)
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667180179323-cbb2ec2a-1149-487d-880f-0a695de10b55.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![image.png](/images/word4.png)
 
 
 
@@ -641,37 +641,37 @@ Pv和UV的度量方法：
 
 数据埋点是数据产品经理、数据运营以及数据分析师，基于业务需求或产品需求对用户在应用内产生行为的每一个事件对应的页面和位置植入相关代码，并通过采集工具上报统计数据，以便相关人员追踪用户行为，推动产品优化或指导运营的一项工程。
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667474665429-22233c18-b217-4162-8efc-06843a09d9cc.png?x-oss-process=image%2Fresize%2Cw_600%2Climit_0)
+![image.png](/images/word5.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475379419-9d15f4af-b1cb-4f9f-b385-b23a22e803cb.png?x-oss-process=image%2Fresize%2Cw_714%2Climit_0)
+![image.png](/images/word6.png)
 
 
 
 首先数据采集我们要从不同的端采集不同的数据，然后进行数据清洗加工处理（ETL），然后汇总到数据仓库中，供用户分析、用户画像、精准营销等使用
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475338792-8e61ec40-b49e-4003-b679-1b60fd154927.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![image.png](/images/word7.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475449143-daf1c709-e5ec-4d90-8526-848ae99649d3.png?x-oss-process=image%2Fresize%2Cw_718%2Climit_0)
+![image.png](/images/word8.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475453085-ba9182d1-e930-4c07-a82e-d5cd0824b354.png?x-oss-process=image%2Fresize%2Cw_688%2Climit_0)
+![image.png](/images/word9.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475457844-3b3052a1-ebd6-4d05-b860-f4e20b9b57b5.png?x-oss-process=image%2Fresize%2Cw_694%2Climit_0)
+![image.png](/images/word10.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475502340-a340d092-554f-4873-93af-b82573037bc8.png?x-oss-process=image%2Fresize%2Cw_704%2Climit_0)
+![image.png](/images/word11.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667475517387-23e05094-a313-4b56-8ca6-15e1231f46b0.png?x-oss-process=image%2Fresize%2Cw_862%2Climit_0)
+![image.png](/images/word12.png)
 
 
 
@@ -679,13 +679,13 @@ Pv和UV的度量方法：
 
 用户属性和设备属性：
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667525795860-842b6f6c-81e3-483a-8fdd-1c020682edc6.png?x-oss-process=image%2Fresize%2Cw_1253%2Climit_0)
+![image.png](/images/word13.png)
 
 
 
 事件属性：
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667525889459-a6e751b1-8ff4-4fa1-98a9-a94f3f98ebc6.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![image.png](/images/word14.png)
 
 
 
@@ -693,39 +693,39 @@ Pv和UV的度量方法：
 
 
 
- ![img](https://img.alicdn.com/tfs/TB12BLyaVOWBuNjy0FiXXXFxVXa-32-32.ico)[友盟学院 - 实操自定义埋点教程](https://info.umeng.com/course/detail?spm=a213m0.20961178.4213114430.2.5eb875e2e8A81M&id=2) 
+ [友盟学院 - 实操自定义埋点教程](https://info.umeng.com/course/detail?spm=a213m0.20961178.4213114430.2.5eb875e2e8A81M&id=2) 
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667820951254-46560896-68cb-48aa-9733-9fe6f117e821.png?x-oss-process=image%2Fresize%2Cw_1040%2Climit_0)
+![image.png](/images/word15.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667821032040-e5b61342-c60c-4d15-b257-dfb311427afd.png?x-oss-process=image%2Fresize%2Cw_1067%2Climit_0)
+![image.png](/images/word16.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667821053818-43bda9d7-4c67-4387-bb25-159426e31e6f.png?x-oss-process=image%2Fresize%2Cw_1025%2Climit_0)
+![image.png](/images/word17.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667821648568-5c41d9b1-6409-418b-9256-bb8a76c1c269.png?x-oss-process=image%2Fresize%2Cw_1083%2Climit_0)
+![image.png](/images/word18.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667824204582-98c196af-8d8f-4acf-8668-20a4ee40adfa.png?x-oss-process=image%2Fresize%2Cw_841%2Climit_0)
+![image.png](/images/word19.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667824972963-cd7acbc4-6bdd-440d-8897-e4d0caef398e.png?x-oss-process=image%2Fresize%2Cw_1030%2Climit_0)
+![image.png](/images/word20.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667825085353-4308d6de-e1ce-451a-bbf9-8876d3d1f47e.png?x-oss-process=image%2Fresize%2Cw_1079%2Climit_0)
+![image.png](/images/word21.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1667825280293-dded81d8-3048-48b0-a76a-6c6bfb1c667a.png?x-oss-process=image%2Fresize%2Cw_994%2Climit_0)
+![image.png](/images/word22.png)
 
 
 
@@ -743,33 +743,33 @@ Pv和UV的度量方法：
 
 ●用户行为
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668068429745-91f4848b-1e25-4074-8033-5ec0a4ae7068.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![image.png](/images/word23.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668069037817-3c066b24-8aaf-477f-bac7-166770fc8086.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![image.png](/images/word24.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668069271025-f464a6ef-c505-4bf2-b6e2-4b067e5f481a.png?x-oss-process=image%2Fresize%2Cw_1056%2Climit_0)
+![image.png](/images/word25.png)
 
 
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668131907983-0d87fc2f-d429-453b-8c66-a02cbf23210b.png)
+![image.png](/images/word26.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668131914071-27d3a38c-e602-48ab-937e-d8e3a6eae470.png)
+![image.png](/images/word27.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668131927893-1784079b-94af-4d37-b73a-6e3b2be47e30.png)
+![image.png](/images/word28.png)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1668132121508-32545b1e-9246-47ff-9369-dbc5acf92b0d.png)
+![image.png](/images/word29.png)
 
 
 
@@ -873,7 +873,7 @@ M=在分析周期内用户消费额
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/29547060/1669687588414-947ef17c-0c7c-4394-ab5e-9a94f2f10827.png?x-oss-process=image%2Fresize%2Cw_1128%2Climit_0)
+![image.png](/images/word30.png)
 
 
 
