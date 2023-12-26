@@ -150,7 +150,7 @@ home_banner:
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
       email: sunwenyu1123@gmail.com # your email
-      fa-solid fa-person: https://flowus.cn/salmonsea/share/ad2a285f-6c7d-4f06-80b8-2a1ba756a13a
+      fa-sharp fa-light fa-user-alien: https://flowus.cn/salmonsea/share/ad2a285f-6c7d-4f06-80b8-2a1ba756a13a
       discord: https://discord.gg/hPTdkjkepS
       # ...... # you can add more
     # Social links with QRcode drawers
