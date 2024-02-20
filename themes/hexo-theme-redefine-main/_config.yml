@@ -106,7 +106,7 @@ home_banner:
     light: /images/bg-light.jpg # light mode
     dark: /images/bg-night.jpg # dark mode
   # Home banner title
-  title: 这里写的都不重要。
+  title: 欲望受到侵蚀，行动定要受阻。
   # Home banner subtitle
   subtitle:
     text: [欲望受到侵蚀，行动定要受阻。] # subtitle text, array
