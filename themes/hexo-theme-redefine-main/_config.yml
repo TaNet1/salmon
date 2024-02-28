@@ -33,8 +33,10 @@ defaults:
 colors:
   #Primary color
   primary: "#A31F34"
-  # Secondary color (beta)
+  # Secondary color (TBD)
   secondary:
+  # Default theme mode initial value (will be overwritten by prefer-color-scheme)
+  default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -43,13 +45,13 @@ global:
   # Custom fonts
   fonts:
     # Chinese fonts
-    chinese:
-      enable: false # Whether to enable custom chinese font
+    chinese: 
+      enable: false # Whether to enable custom chinese fonts
       family:  # Font family
       url:  # Font URL to CSS file
     # English fonts
-    english:
-      enable: false # Whether to enable custom chinese font
+    english: 
+      enable: false # Whether to enable custom english fonts
       family:  # Font family
       url:  # Font URL to CSS file
   # Content max width
@@ -73,6 +75,8 @@ global:
     post_pv: true # post page view
   # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
   single_page: true
+  # Whether to enable Preloader.
+  preloader: true
   # Whether to enable open graph
   open_graph: true
   # Google Analytics
@@ -80,7 +84,7 @@ global:
     enable: false # Whether to enable Google Analytics
     id:  # Google Analytics Measurement ID
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
+    
 
 # FONTAWESOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 fontawesome: # Pro v6.2.1
@@ -120,11 +124,11 @@ home_banner:
     loop: true # Whether to loop
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
-  text_color:
+  text_color: 
     light: "#fff" # light mode
     dark: "#d1d1b6" # dark mode
   # Specific style of the text
-  text_style:
+  text_style: 
     # Title font size
     title_size: 2.8rem
     # Subtitle font size
@@ -132,17 +136,19 @@ home_banner:
     # Line height between title and subtitle
     line_height: 1.2
   # Home banner custom font
-  custom_font:
+  custom_font: 
     # Whether to enable custom font
     enable: false
     # Font family
-    family:
+    family: 
     # URL to font CSS file
     url:
   # Home banner social links
   social_links:
     # Whether to enable
     enable: true
+    # Social links style
+    style: default # default, reverse, center
     # Social links
     links:
       github: https://github.com/TaNet1 # your GitHub URL
@@ -191,14 +197,14 @@ navbar:
     # Status:
     #   path: https://status.evanluo.top/
     #   icon: fa-regular fa-chart-bar
-    # About:
+    # About: 
     #   icon: fa-regular fa-user
     #   submenus:
     #     Me: /about
     #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
     #     Blog: https://ohevan.com
     #     Friends: /friends
-    # Links:
+    # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
     #     Link1: /link1
@@ -259,13 +265,21 @@ articles:
     image_alignment: center # image alignment. left, center
     image_caption: false # Whether to display image caption
     link_icon: true # Whether to display link icon
+    title_alignment: left # Title alignment. left, center
+    headings_top_spacing: # Top spacing for headings from h1-h6
+      h1: 5rem
+      h2: 4rem
+      h3: 2.8rem
+      h4: 2.5rem
+      h5: 2.2rem
+      h6: 2rem
   # Word count. Requires hexo-wordcount (npm install hexo-wordcount). See https://github.com/willin/hexo-wordcount
   word_count:
     enable: true # Whether to enable
     count: true # Whether to display word count
     min2read: true # Whether to display reading time
   # Author label
-  author_label:
+  author_label: 
     enable: false # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
@@ -285,7 +299,9 @@ articles:
     expand: true # Whether to expand TOC
     init_open: true # Open toc by default
   # Whether to enable copyright notice
-  copyright: true
+  copyright:
+    enable: true # Whether to enable
+    default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
   lazyload: true
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
@@ -317,6 +333,9 @@ comment:
     waline:
       serverUrl: https://salmon-sea-comment.vercel.app # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+      emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
+      recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
+      turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
       clientID: baeec8540cf1e427e51e # GitHub Application Client ID
@@ -352,6 +371,8 @@ footer:
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2023/8/13 11:45:14
+  # Site statistics
+  statistics: true # show site statistics or not (total articles, total words)
   # Footer message
   customize: '祝你有时间可以荒废。'
   # ICP record number. See https://beian.miit.gov.cn/
@@ -367,7 +388,7 @@ inject:
   # Whether to enable inject
   enable: false
   # Inject custom head html code
-  head:
+  head: 
     -
     -
   # Inject custom footer html code
