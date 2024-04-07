@@ -9,9 +9,9 @@ tags:
 	- "Lesson"
 	- "UX Design"
 categories: 笔记
-thumbnail: "/images/hack1.jpg"
-banner: "/images/hack1.jpg"
-excerpt: "你必须要了解你的产品的核心价值是什么、对哪些客户来说具备这些核心价值以及为什么。"
+thumbnail: "/images/ux.jpg"
+banner: "/images/ux.jpg"
+excerpt: "usable/equitable/enjoyable/useful"
 ---
 
 ## 01 基础知识
