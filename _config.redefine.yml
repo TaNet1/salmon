@@ -92,8 +92,8 @@ global:
   open_graph: true
   # Google Analytics
   google_analytics:
-    enable: false # Whether to enable Google Analytics
-    id:  # Google Analytics Measurement ID
+    enable: true # Whether to enable Google Analytics
+    id: G-3DPM4CWJ6G # Google Analytics Measurement ID
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
     
 
@@ -120,17 +120,17 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/bg-light.jpg # light mode
+    dark: /images/bg-night.jpg # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: 欲望受到侵蚀，行动定要受阻。
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: [欲望受到侵蚀，行动定要受阻。] # subtitle text, array
     hitokoto:  # 一言配置
-      enable: false # Whether to enable hitokoto
+      enable: true # Whether to enable hitokoto
       show_author: false # Whether to show author
-      api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
+      api: https://v1.hitokoto.cn/?c=k # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 100 # Typing speed (ms)
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
@@ -160,20 +160,22 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
+      github: https://github.com/TaNet1 # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email: sunwenyu1123@gmail.com # your email
+      fa-solid fa-person-rays: https://flowus.cn/salmonsea/share/ad2a285f-6c7d-4f06-80b8-2a1ba756a13a
+      discord: https://discord.gg/hPTdkjkepS
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin:  # your Wechat QRcode image URL
+      weixin: /images/wechat.JPG # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -181,6 +183,14 @@ home_banner:
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/home/navbar
 navbar:
+  tags:
+    Tags:
+        icon: fa-solid fa-tags #图标
+        path: /tags/ #链接
+  categories:
+    Categories: #取名随意
+        icon: fa-solid fa-folder #图标
+        path: /categories/ #链接
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
@@ -197,9 +207,9 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # can be empty
+    Archives: 
+      path: /archives 
+      icon: fa-regular fa-archive # can be empty
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -233,10 +243,13 @@ home:
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
-    first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
+    first_item: info # First item in sidebar. menu, info
+    announcement: 不懂装懂是极度愚蠢的行为。 # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
+       photos:
+         icon: fa-solid fa-image
+         path: /masonry/
       # Archives: 
       #   path: /archives 
       #   icon: fa-regular fa-archive # can be empty
@@ -343,7 +356,7 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      serverUrl: https://salmon-sea-comment.vercel.app # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
@@ -351,10 +364,10 @@ comment:
       reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: # GitHub Application Client ID
-      clientSecret: # GitHub Application Client Secret
-      repo: # GitHub repository
-      owner: # GitHub repository owner
+      clientID: baeec8540cf1e427e51e # GitHub Application Client ID
+      clientSecret: 65e5799eef114330b2480de15a3a221217779eb4 # GitHub Application Client Secret
+      repo: git@github.com:TaNet1/Gtalk.git # GitHub repository
+      owner: TaNet1 # GitHub repository owner
       proxy: # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
     twikoo:
@@ -371,7 +384,7 @@ comment:
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
       emit_metadata: 0 # Whether to emit metadata. e.g. 0, 1
-      lang: en # Giscus language. e.g. en, zh-CN, zh-TW
+      lang: zh-CN # Giscus language. e.g. en, zh-CN, zh-TW
       input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -385,11 +398,11 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2023/8/13 11:45:14
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
-  customize:
+  customize: '祝你有时间可以荒废。'
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
@@ -422,13 +435,13 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
-    type: fixed # fixed, mini
+    enable: true # Whether to enable
+    type: mini # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: jealous. # audio name
+        artist: ford. # audio artist
+        url: /music/ford - jealous.mp3 # audio url
+        cover: /images/cover.JPG # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
@@ -457,7 +470,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: npmmirror # npmmirror, zstatic, sustech, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
