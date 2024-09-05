@@ -86,7 +86,7 @@ global:
   single_page: true
   # Whether to enable Preloader.
   preloader:
-    enable: false
+    enable: true
     custom_message: # Custom message. If empty, the site title will be displayed
   # Whether to enable open graph
   open_graph: true
