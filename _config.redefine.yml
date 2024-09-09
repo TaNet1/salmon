@@ -50,19 +50,19 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: false # Whether to enable custom chinese fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom chinese fonts
+      family: 方正新报宋简体 # Font family
+      url: /Users/salmonc/salmon/themes/hexo-theme-redefine/source/fonts/方正新报宋简体.ttf # Font URL to CSS file
     # English fonts
     english: 
       enable: false # Whether to enable custom english fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: Georgia # Font family
+      url: /Users/salmonc/salmon/themes/hexo-theme-redefine/source/fonts/Georgia.ttf # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
-      enable: false # Whether to enable custom title fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom title fonts
+      family: 方正新报宋简体 # Font family
+      url: /Users/salmonc/salmon/themes/hexo-theme-redefine/source/fonts/方正新报宋简体.ttf # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -230,7 +230,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
