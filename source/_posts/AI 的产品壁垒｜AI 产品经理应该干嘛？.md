@@ -7,8 +7,8 @@ tags:
 	- "Note"
 	- "Learn"
 categories: AI产品经理
-thumbnail: "/images/aigc.jpg"
-banner: "/images/aigc.jpg"
+thumbnail: "/images/ai1.jpg"
+banner: "/images/ai1.jpg"
 excerpt: "翻译官+协调员"
 ---
 
